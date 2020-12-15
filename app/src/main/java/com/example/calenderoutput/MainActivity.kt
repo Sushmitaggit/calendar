@@ -98,12 +98,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-
-
-
-
-
-
-
-//                    etDate.setText("Enter date of joining : $dayOfMonth-${ monthOfYear+1}- $year")
-//                    etDOB.setText("Enter date of joining : $dayOfMonth-${ monthOfYear+1}- $year")
+ ")

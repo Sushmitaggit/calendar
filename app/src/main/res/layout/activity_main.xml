@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etDate"
+        android:hint="Enter date of joining : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:editable="false"/>
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:hint="Enter DOB : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:editable="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/tvOut"
+        android:text="OUTPUT"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark"/>
+
+
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:text="No. of years worked : "
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/dark"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:text="Your age is : "
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark"
+        android:layout_marginBottom="465dp"/>
+</LinearLayout>
+
+
+</LinearLayout>
